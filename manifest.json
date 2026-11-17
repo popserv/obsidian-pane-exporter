@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Export Pane to Obsidian",
+  "version": "1.0",
+  "description": "右クリックした領域（Pane）のテキストをObsidianに書き出します",
+  "permissions": ["contextMenus", "scripting", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
